@@ -1,0 +1,170 @@
+TREASURE EXCAVATOR - ECONOMY BALANCE SHEET
+Version,1.0
+Last Updated,2025-11-18
+
+=== LEVEL REWARDS ===
+Level,Target Score (1 Star),Target Score (2 Stars),Target Score (3 Stars),Gold Reward (1 Star),Gold Reward (2 Stars),Gold Reward (3 Stars),First Completion Bonus
+1,100,150,200,50,75,100,50
+2,150,225,300,60,90,120,60
+3,250,375,500,75,112,150,75
+4,350,525,700,90,135,180,90
+5,500,750,1000,110,165,220,110
+6,750,1125,1500,130,195,260,130
+7,1000,1500,2000,150,225,300,150
+8,1500,2250,3000,200,300,400,200
+
+=== TREASURE VALUES ===
+Treasure Type,Base Value,Spawn Rate (%),Visual Size
+Small,10,70,1x
+Medium,50,25,2x
+Large,200,5,3x
+
+=== MULTIPLIER GATES ===
+Gate Type,Multiplier,Unlock Level,Color,Rarity (per level)
+Bronze,x2,1,Bronze,Common (3-4 per level)
+Silver,x3,2,Silver,Uncommon (2-3 per level)
+Gold,x5,5,Gold,Rare (1-2 per level)
+Platinum,x10,8,Platinum,Very Rare (1 per level)
+
+=== VEHICLE COSTS ===
+Vehicle,Unlock Method,Gold Cost,Alternative Unlock
+Starter Bulldozer,Default,0,N/A
+Dual-Scoop Loader,Complete Level 3,1000,Purchase with gold
+Nitro Hauler,Complete Level 6,2500,Purchase with gold
+Mega Vault Truck,Complete Level 8 (3 stars),5000,Purchase with gold (post-launch)
+
+=== COSMETIC SKIN PRICING ===
+Skin Name,Vehicle,Price (Gold),Price (Gems),Unlock Method
+Red Racer,Any,500,0,Purchase or earn
+Blue Steel,Any,500,0,Purchase or earn
+Golden Glint,Any,1000,0,Complete all levels (3 stars)
+Camouflage,Any,0,200,IAP only
+Neon Glow,Any,0,200,IAP only
+Diamond Plated,Any,0,500,Premium IAP bundle
+Forest Green,Any,750,0,Daily login (7 days)
+Sunset Orange,Any,750,0,Watch 10 rewarded videos
+Carbon Fiber,Any,1500,0,Replay achievement (100 levels)
+Chrome Finish,Any,0,300,IAP only
+
+=== IN-APP PURCHASES ===
+IAP Product,Price (USD),Gold Granted,Gems Granted,Bonus Items
+Starter Pack,0.99,500,0,1 free skin
+Gold Pile,4.99,3000,0,None
+Gem Pouch,2.99,0,300,None
+Premium Skin Bundle,2.99,0,0,5 exclusive skins
+Mega Bundle,9.99,10000,500,3 skins + Remove Ads
+Remove Ads,4.99,0,0,Removes banner ads (cosmetic)
+
+=== CURRENCY EARNING RATES ===
+Source,Gold Earned,Gems Earned,Frequency,Notes
+Level Completion (1 star),50-200,0,Per level,Based on level difficulty
+Level Completion (2 stars),+50%,0,Per level,Bonus for 2 stars
+Level Completion (3 stars),+100%,0,Per level,Bonus for 3 stars
+First Completion Bonus,50-200,0,Once per level,One-time reward
+Daily Login,50,0,Daily,Increases to 200 on day 7
+Rewarded Video Ad,100,0,Unlimited (cooldown),10-minute cooldown
+Retry Level (replay),20,0,Per replay,Reduced reward for replays
+
+=== CURRENCY SPENDING ===
+Item,Gold Cost,Gems Cost,Value Proposition
+Vehicle Unlock (early),1000-5000,0,Skip level requirement
+Cosmetic Skin,500-1500,0,Personalization
+Premium Skin,0,200-500,Exclusive cosmetics
+Gold Exchange,0,100 gems = 500 gold,Gem-to-gold conversion
+Continue After Fail,50,0,Optional retry (not needed in MVP)
+
+=== PROGRESSION PACING ===
+Player Milestone,Cumulative Gold Earned,Cumulative Gold Spent,Net Gold,Notes
+Complete Level 1,100,0,100,First completion
+Complete Level 3,400,1000 (Dual-Scoop),-600,Optional vehicle purchase
+Complete Level 5,900,0,300,If saved gold
+Complete Level 8,2100,2500 (Nitro),400,If saved for Nitro Hauler
+All Levels (1 star),865,0,865,Base earnings (no bonuses)
+All Levels (3 stars),2600,0,2600,Full completion earnings
+All Levels + Bonuses,3465,0,3465,With first completion bonuses
+
+=== DAILY LOGIN REWARDS ===
+Day,Gold Reward,Bonus Item,Notes
+1,50,None,Standard
+2,100,None,Standard
+3,150,None,Increased
+4,200,None,Increased
+5,250,None,Increased
+6,300,None,Increased
+7,500,Free Skin (Forest Green),Week completion bonus
+
+=== AD REVENUE PROJECTIONS ===
+Metric,Value,Notes
+Rewarded Video CPM,$15,Industry average for opt-in ads
+Banner Ad CPM,$2,Low value (cosmetic removal available)
+Expected Daily Ad Views per User,2,Conservative estimate
+Daily Ad Revenue per User,$0.03,2 rewarded videos @ $15 CPM
+Monthly Ad Revenue (1000 DAU),$900,"1000 users * $0.03 * 30 days"
+
+=== MONETIZATION BALANCE ===
+Revenue Source,% of Total Revenue (Projected),Notes
+In-App Purchases,60%,Primary revenue (cosmetics + gold)
+Rewarded Video Ads,35%,Secondary revenue (opt-in)
+Banner Ads,5%,Minimal (most users remove)
+
+=== F2P vs PAYING PLAYER COMPARISON ===
+Player Type,Total Gold Earned (Month 1),Total Spent,Vehicles Unlocked,Skins Owned
+Free Player (No Ads),865,0,2 (Bulldozer + 1 unlock),1 (free)
+Free Player (Watches Ads),865 + 3000 (30 ads),1000,3 (all via gameplay),3 (purchased with ad gold)
+Paying Player ($9.99),865 + 10000 (IAP),5000,4 (all),8 (bundle + purchases)
+
+=== BALANCING GOALS ===
+Goal,Target,Status
+Free players can unlock all vehicles,Yes (via gameplay),Balanced
+No paywalls for content,Yes (all levels free),Balanced
+IAP provides convenience not power,Yes (cosmetics only),Balanced
+Ads are optional,Yes (opt-in rewarded only),Balanced
+Premium players feel valued,Yes (exclusive skins + time savings),Balanced
+
+=== DIFFICULTY SCALING ===
+Level,Estimated Playtime (minutes),Estimated Attempts to 1 Star,Estimated Attempts to 3 Stars,Skill Curve
+1,2,1,2,Tutorial (very easy)
+2,3,1,3,Easy
+3,4,2,4,Easy-Medium
+4,5,2,5,Medium
+5,6,3,6,Medium
+6,7,3,7,Medium-Hard
+7,8,4,8,Hard
+8,10,5,10,Very Hard
+
+=== RETENTION INCENTIVES ===
+Incentive,Unlock Condition,Reward,Purpose
+First Win,Complete Level 1,+100 gold bonus,Early success
+Vehicle Unlock,Complete Level 3,Dual-Scoop Loader,Mid-game hook
+Hard Mode (future),Complete all levels (3 stars),New challenge mode,Late-game retention
+Daily Login Streak,7 consecutive days,Free skin,Daily engagement
+Achievement System (future),Various milestones,Cosmetics + gold,Long-term goals
+
+=== PRICING STRATEGY NOTES ===
+Philosophy,Ethical F2P - No predatory mechanics
+Target ARPDAU,$0.05 (bootstrap) to $0.15 (with marketing)
+IAP Price Points,$0.99 (impulse) to $9.99 (mega bundle)
+Gold Pricing,1000 gold = ~1 vehicle unlock
+Gem Pricing,200-500 gems = 1 premium skin
+
+=== PLAYTESTING VALIDATION ===
+Question,Target Answer,How to Measure
+Can free players unlock all content?,Yes,Complete all levels without IAP
+Does grinding feel excessive?,No,Max 2 hours to unlock all vehicles via gameplay
+Are IAPs tempting but not required?,Yes,Track conversion rate (5-10% target)
+Do players watch rewarded ads?,Yes,Track ad view rate (30%+ of players)
+Is 3-star completion satisfying?,Yes,Track 3-star completion rate (20%+ of players)
+
+=== BALANCE ADJUSTMENT LOG ===
+Date,Change,Reason,Impact
+2025-11-18,Initial balance setup,Phase 0 pre-production,Baseline economy established
+(Future updates logged here),,,
+
+=== NOTES FOR DEVELOPERS ===
+Note 1: All gold/gem values are tunable - adjust based on playtesting
+Note 2: Track player progression in analytics to identify bottlenecks
+Note 3: A/B test IAP pricing in soft launch markets
+Note 4: Monitor rewarded ad fill rate (may affect gold earning rate)
+Note 5: Consider seasonal events for additional gold earning opportunities (post-launch)
+
+END OF ECONOMY BALANCE SHEET
